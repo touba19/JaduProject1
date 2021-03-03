@@ -1,0 +1,81 @@
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 5px;
+    background: cornflowerblue;
+}
+.navBar  li{
+      display: inline;
+} 
+#active{
+    background: black;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    font-weight: 500;
+}
+li a:hover {
+    background-color: #111;
+  }
+.fontSize{
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: italic;
+}
+h4{
+    font-weight: normal;
+    color: grey;
+}
+.talent{
+    margin-bottom: 100px;
+}
+.rightFloat{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 86px;
+}
+  
+  .imageToobi{
+      float: right;
+      border-radius: 50%;
+  }
+  .socialAccounts{
+      display: flex;
+  }
+  #find{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .imageProperty{
+      margin-left: 20px;
+  }
+footer{
+    background: cornflowerblue;
+    padding: 10px 5px;
+    margin-top: 140px;
+    text-align: center;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+p{
+    font-size: larger;
+}
+.Contacts{
+    font-size: 50px;
+}
